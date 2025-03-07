@@ -2,8 +2,73 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import { InteractiveGallery } from "@/components/interactive-gallery"
 
 export default function Home() {
+
+  const galleryImages = [
+    {
+      src: "/d_1.jpg?height=500&width=500",
+      alt: "Tech Workshop",
+      category: "events",
+    },
+    {
+      src: "/d_2.jpg?height=500&width=500",  
+      alt: "Design Team Project",
+      category: "design",
+    },
+    {
+      src: "/d_3.jpg?height=500&width=500",  
+      alt: "Cultural Night",
+      category: "cultural",
+    },
+    {
+      src: "/d_4.jpg?height=500&width=500",  
+      alt: "Sports Tournament",
+      category: "sports",
+    },
+    {
+      src: "/d_5.jpg?height=500&width=500",  
+      alt: "Team Meeting",
+      category: "management",
+    },
+    {
+      src: "/d_6.jpg?height=500&width=500",  
+      alt: "Hackathon Winners",
+      category: "achievements",
+    },
+    // {
+    //   src: "/placeholder.svg?height=500&width=500",
+    //   alt: "Social Media Campaign",
+    //   category: "social",
+    // },
+    // {
+    //   src: "/placeholder.svg?height=500&width=500",
+    //   alt: "Finance Workshop",
+    //   category: "finance",
+    // },
+    // {
+    //   src: "/placeholder.svg?height=500&width=500",
+    //   alt: "Core Team Planning",
+    //   category: "core",
+    // },
+    // {
+    //   src: "/placeholder.svg?height=500&width=500",
+    //   alt: "Award Ceremony",
+    //   category: "achievements",
+    // },
+    // {
+    //   src: "/placeholder.svg?height=500&width=500",
+    //   alt: "Campus Event",
+    //   category: "events",
+    // },
+    // {
+    //   src: "/placeholder.svg?height=500&width=500",
+    //   alt: "Team Building Activity",
+    //   category: "cultural",
+    // },
+  ]
+
   return (
     <main className="flex min-h-[calc(100vh-4rem)] flex-col">
       <section className="flex flex-col items-center justify-center flex-1 p-4 md:p-10 text-center">
@@ -66,6 +131,24 @@ export default function Home() {
           </div>
         </Link>
       </section>
+
+
+
+      <section className="py-20 px-4 md:px-10 bg-gradient-to-b from-black/90 to-black">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">CRESA Gallery</h2>
+              <p className="text-muted-foreground max-w-2xl">
+                Explore our collection of images showcasing CRESA's activities, events, and achievements. Filter by
+                category or click on an image to view it in full size.
+              </p>
+            </div>
+          </div>
+        </div>
+        <InteractiveGallery images={galleryImages} />
+      </section>
+
     </main>
   )
 }

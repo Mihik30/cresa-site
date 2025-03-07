@@ -7,7 +7,7 @@ export default function EventsPage() {
   const upcomingEvents = [
     {
       id: 1,
-      title: "Tech Fest 2024",
+      title: "Tech Fest 2025",
       description:
         "A showcase of student projects and competitions. Join us for an exciting day of innovation and technology.",
       date: "June 15, 2024",
@@ -20,7 +20,7 @@ export default function EventsPage() {
       id: 2,
       title: "Workshop: Web Development Basics",
       description: "Learn the fundamentals of web development in this hands-on workshop led by industry professionals.",
-      date: "May 20, 2024",
+      date: "May 20, 2025",
       time: "2:00 PM - 4:00 PM",
       location: "Computer Lab 3",
       image: "/placeholder.svg?height=400&width=800",

@@ -15,32 +15,32 @@ export default function DesignTeamPage() {
             title="Our Design Work"
             images={[
               {
-                src: "/placeholder.svg?height=720&width=1280",
+                src: "/d_1.jpg",
                 alt: "Website Redesign",
                 caption: "CRESA Website Redesign Project",
               },
               {
-                src: "/placeholder.svg?height=720&width=1280",
+                src: "/d_2.jpg",
                 alt: "Brand Guidelines",
                 caption: "Brand Identity Guidelines",
               },
               {
-                src: "/placeholder.svg?height=720&width=1280",
+                src: "/d_3.jpg",
                 alt: "Mobile App",
                 caption: "CRESA Mobile App Design",
               },
               {
-                src: "/placeholder.svg?height=720&width=1280",
+                src: "/d_4.jpg",
                 alt: "Event Posters",
                 caption: "Event Marketing Materials",
               },
               {
-                src: "/placeholder.svg?height=720&width=1280",
+                src: "/d_5.jpg",
                 alt: "Social Media",
                 caption: "Social Media Design System",
               },
               {
-                src: "/placeholder.svg?height=720&width=1280",
+                src: "/d_6.jpg",
                 alt: "UI Components",
                 caption: "Design System Components",
               },

@@ -143,7 +143,7 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-primary mr-3 mt-0.5" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 xxxxxxxxxx</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -151,20 +151,20 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium">Location</h3>
                     <p className="text-muted-foreground">
-                      Student Center, Room 302
+                      2nd floor , 6th building
                       <br />
-                      University Campus
+                      PCCoE Campus
                       <br />
-                      123 University Ave
+                      Akurdi, Pune
                       <br />
-                      City, State 12345
+                      Maharastra - 411044
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
               <CardHeader>
                 <CardTitle>Office Hours</CardTitle>
               </CardHeader>
@@ -184,7 +184,7 @@ export default function ContactPage() {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </div>

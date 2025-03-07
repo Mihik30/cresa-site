@@ -33,7 +33,7 @@ export function CursorGlow() {
       <div
         className="absolute w-[1800px] h-[1800px] rounded-full blur-[450px] opacity-40"
         style={{
-          background: "radial-gradient(circle, rgba(255, 100, 0, 0.35), transparent 85%)",
+          background: "radial-gradient(circle, rgb(255, 102, 0), transparent 85%)",
           left: position.x - 900,
           top: position.y - 900,
         }}
@@ -42,7 +42,7 @@ export function CursorGlow() {
       <div
         className="absolute w-[1400px] h-[1400px] rounded-full blur-[350px] opacity-50"
         style={{
-          background: "radial-gradient(circle, rgba(230, 80, 0, 0.5), transparent 80%)",
+          background: "radial-gradient(circle, rgb(255, 102, 0), transparent 85%)",
           left: position.x - 700,
           top: position.y - 700,
         }}
@@ -51,7 +51,7 @@ export function CursorGlow() {
       <div
         className="absolute w-[1000px] h-[1000px] rounded-full blur-[250px] opacity-70"
         style={{
-          background: "radial-gradient(circle, rgba(200, 60, 0, 0.85), transparent 75%)",
+          background: "radial-gradient(circle, rgb(255, 102, 0), transparent 85%)",
           left: position.x - 500,
           top: position.y - 500,
         }}
